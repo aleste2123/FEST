@@ -28,26 +28,6 @@ Se pueden instalar con:
 pip install numpy matplotlib scikit-learn
 ```
 
-## Uso
-
-1. Clona el repositorio:
-
-```bash
-git clone https://github.com/usuario/marcha-aleatoria-1D.git
-cd marcha-aleatoria-1D
-```
-
-2. Abre y ejecuta el notebook en Jupyter:
-
-```bash
-jupyter notebook Tarea1_fest.ipynb
-```
-
-3. Dentro del notebook podrás:
-   - Simular la marcha aleatoria para distintos valores de `N`.
-   - Generar histogramas y compararlos con la distribución gaussiana teórica.
-   - Calcular la pendiente de la regresión y obtener el valor de $D$.
-
 ## Resultados esperados
 
 - La distribución de posiciones finales se aproxima a una **campana de Gauss** cuando $N$ es grande.
