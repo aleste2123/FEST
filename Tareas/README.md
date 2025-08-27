@@ -22,11 +22,32 @@ El proyecto está escrito en **Python 3** y requiere las siguientes librerías:
 - `matplotlib`
 - `scikit-learn` (para regresión lineal)
 
-Se pueden instalar con:
+## Instalación
 
-```bash
-pip install numpy matplotlib scikit-learn
-```
+1. Clona este repositorio y entra a la carpeta:
+   ```bash
+   git clone https://github.com/aleste2123/FEST.git
+   cd FEST/Tareas
+   ```
+
+2. Crea y activa un entorno virtual (opcional, pero recomendado):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # En Linux/Mac
+   venv\Scripts\activate      # En Windows
+   ```
+
+3. Instala las dependencias:
+   ```bash
+   pip install numpy matplotlib scikit-learn
+   ```
+
+4. Abre el notebook en Jupyter:
+   ```bash
+   jupyter notebook Tarea1_fest.ipynb
+   ```
+
+Con esto tendrás todo listo para correr las simulaciones y reproducir los resultados.
 
 ## Resultados esperados
 
@@ -43,5 +64,4 @@ $$
 $$
 D = \frac{a^2}{2}
 $$
-
 
